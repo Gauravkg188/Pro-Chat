@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="7dp"
+
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        >
+
+        <TextView
+            android:id="@+id/text_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/chat_background_left"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="normal" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text_message"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_delivered"
+            android:id="@+id/image_check"/>
+
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text_message"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Time"
+            android:layout_toLeftOf="@+id/image_check"
+            android:textColor="#E40E0E"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/text_message"
+            android:layout_toLeftOf="@+id/text_time"
+            android:text="Date"
+            android:layout_marginRight="5dp"
+            android:textColor="#E40E0E"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

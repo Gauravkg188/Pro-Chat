@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProChat</string>
+    <string-array name="language">
+        <item>ENGLISH</item>
+        <item>GERMAN</item>
+        <item>HINDI</item>
+        <item>FRENCH</item>
+
+
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
